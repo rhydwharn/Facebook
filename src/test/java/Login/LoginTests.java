@@ -17,8 +17,8 @@ public class LoginTests {
         driver.manage().window().maximize();
         System.out.println(driver.getTitle());
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.findElement(By.id("email")).sendKeys("ridwanconcept@yahoo.com");
-        driver.findElement(By.id("pass")).sendKeys("Labibah20.");
+        driver.findElement(By.id("email")).sendKeys("");
+        driver.findElement(By.id("pass")).sendKeys("");
         driver.findElement(By.id("loginbutton")).click(); }
 
     public static void main(String args[]) throws InterruptedException {
